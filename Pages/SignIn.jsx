@@ -7,7 +7,7 @@ import { Alert } from "@heroui/react";
 import { schema } from "../Validation/SigninValidation";
 import { Link } from "react-router-dom";
 import { authcontext } from "../Context/Authcontext";
-import { ApiServices } from "../Services/API";
+import { ApiServices } from "../services/API";
 
 export default function SignIn() {
   const [isLoading, setIsLoading] = useState(false);
